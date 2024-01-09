@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<!DOCTYPE suite SYSTEM "TestNG.dtd">
+<suite name="Selenium_Automation_Testing">
+	<listener class-name = "Selenium_Utilities.Reporting">
+		
+	</listener>
+	<test name="BankingApp Test">
+		<parameter name="browser" value="ie">
+			<classes>
+				<class name="Selenium_Test_Cases.TC001_Login_Test" />
+			</classes>
+		</parameter>
+	</test>
+</suite>
